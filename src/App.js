@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Book from "./components/Book"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Prvni komponentllla</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, enim maxime. Mollitia eveniet consequatur illo voluptatum unde architecto illum, molestias sunt quod ipsa temporibus quam corrupti itaque a! Rerum, ad!</p>
+      <Book />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
