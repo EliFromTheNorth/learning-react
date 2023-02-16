@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run: BANAN HAHAHA
+In the project directory, you can run: BANAN HAHAHA babana test
 
 ### `npm start` haha lol
 
